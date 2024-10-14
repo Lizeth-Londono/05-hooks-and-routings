@@ -1,0 +1,23 @@
+body {
+    background-color: #e6e6fa; /* Morado claro */
+    font-family: 'Gothic', sans-serif; /* Se cambia a la fuente gótica que desees */
+}
+
+h1 {
+    color: #800080; /* Morado para el texto */
+    text-align: center; /* Se centra texto */
+}
+
+nav a {
+    border: 1px solid #C0C0C0; /* Se le da reborde plateado a los textos */
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white; /* Se cambia a un color morado claro para el fondo */
+    text-decoration: none; /* Se quita el subrayado */
+}
+
+    nav a:hover {
+        background-color: #800080; /* Se cambia el fondo al pasar el mouse */
+        color: white; /* Se cambia el color del texto al pasar el mouse */
+    }

@@ -1,0 +1,30 @@
+body {
+    background-color: #e6e6fa; /* Morado claro */
+    font-family: 'Gothic', sans-serif; /* Se cambia la fuente a gótica */
+}
+
+h1 {
+    color: #7f00ff; /* Se le da color morado al título */
+    border: 2px solid silver; /* Borde plateado */
+    padding: 10px; /* Espaciado alrededor del texto */
+    display: inline-block; /* Se le da el borde que se ajuste al texto */
+    margin: 20px auto; /* Se centra el título */
+}
+
+/* Estilo para el menú */
+nav {
+    text-align: center; /* Se centra el contenido del menú */
+}
+
+    nav a {
+        color: #7f00ff; /* Se asigna el color morado para los enlaces */
+        margin: 0 15px; /* Espaciado entre los enlaces */
+        text-decoration: none; /* Sin subrayado */
+        border: 2px solid silver; /* Borde plateado */
+        padding: 5px; /* Espaciado alrededor del texto */
+        border-radius: 5px; /* Bordes redondeados */
+    }
+
+        nav a:hover {
+            text-decoration: underline; /* Se Subrayado al pasar el mouse */
+        }
